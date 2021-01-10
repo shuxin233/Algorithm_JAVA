@@ -4,11 +4,6 @@ public class a01 {
     public static void main(String[] args) {
         int[] nums =new int[]{1,1,2,3};
         int a=removeDuplicates(nums);
-        System.out.println(a);
-        for (int temp:
-             nums) {
-            System.out.println(temp);
-        }
     }
 
     public static int  removeDuplicates(int[] nums) {
