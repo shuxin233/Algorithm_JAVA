@@ -1,8 +1,8 @@
-package Array;
+package OneDay;
 
 import java.util.*;
 
-public class a03 {
+public class a1_11 {
 
     public static void main(String[] args) {
         String s="dacb";
