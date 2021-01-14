@@ -44,6 +44,7 @@ public class a16 {
             }
         }
 
+
         int[] res = new int[m * n];
         int index = 0;
         for (int k = 0; k < ans.length; k++) {

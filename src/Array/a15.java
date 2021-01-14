@@ -36,6 +36,7 @@ package Array;
 
 public class a15 {
     public void setZeroes(int[][] matrix) {
+
         int x=matrix.length;
         int y=matrix[0].length;
 
