@@ -31,6 +31,7 @@ package OneDay;
         二维数组中的整数在1到N之间，其中N是输入数组的大小。*/
 
 public class a1_13 {
+
     public int[] findRedundantConnection(int[][] edges) {
         int nodesCount = edges.length;
         int[] parent=new int[nodesCount+1];

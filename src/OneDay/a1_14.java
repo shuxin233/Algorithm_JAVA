@@ -36,7 +36,6 @@ public class a1_14 {
     public static void main(String[] args) {
 
     }
-
     public List<Boolean> prefixesDivBy5(int[] A) {
         List<Boolean> list=new ArrayList<Boolean>();
         int prefix = 0;
@@ -45,6 +44,7 @@ public class a1_14 {
             prefix = ((prefix << 1) + A[i]) % 5;
             list.add(prefix == 0);
         }
+
         return list;
     }
 }
