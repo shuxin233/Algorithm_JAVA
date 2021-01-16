@@ -27,7 +27,7 @@ import java.util.List;
 
         intervals[i][0] <= intervals[i][1]
 */
-public class a14 {
+public class a14双指针 {
 
 
     public int[][] merge(int[][] intervals) {
