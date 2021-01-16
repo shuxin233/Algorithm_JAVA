@@ -31,7 +31,7 @@ package String;
 public class a01 {
     public static void main(String[] args) {
 
-        String [] a={"abab","aba",""};
+        String [] a={"abab","aba","a"};
         System.out.println(longestCommonPrefix(a));
 
     }
