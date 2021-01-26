@@ -3,13 +3,18 @@ package Hash;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
+import java.util.SplittableRandom;
 
 public class a11 {
     public static void main(String[] args) {
+        String a="a";
+        String b="hfkafnabfajfaiasdkasjdbfjkbasjkdfbkjsdhkfjhskdjbaabddjariwnfv";
+        System.out.println(numJewelsInStones(a,b));
+
 
     }
 
-    public int numJewelsInStones(String jewels, String stones) {
+    public static int numJewelsInStones(String jewels, String stones) {
         Map<Character,Integer> map=new HashMap<>();
         char[] a=stones.toCharArray();
         for (int i = 0; i <stones.length() ; i++) {
