@@ -1,4 +1,4 @@
-package OneDay;
+package OneDay.a2021_1;
 
 public class a1_15 {
     public int removeStones(int[][] stones) {

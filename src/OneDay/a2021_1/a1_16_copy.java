@@ -1,4 +1,4 @@
-package OneDay;
+package OneDay.a2021_1;
 /*
 有一个 m x n 的二元网格，其中 1 表示砖块，0 表示空白。砖块 稳定（不会掉落）的前提是：
 

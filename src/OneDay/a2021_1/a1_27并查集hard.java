@@ -1,4 +1,4 @@
-package OneDay;
+package OneDay.a2021_1;
 /*1579
 Alice 和 Bob 共有一个无向图，其中包含 n 个节点和 3  种类型的边：
 
