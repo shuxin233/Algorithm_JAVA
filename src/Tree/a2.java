@@ -18,6 +18,6 @@ public class a2 {
 
     public boolean isValidBST(TreeNode root) {
         if(root==null)return true;
-
+        return false;
     }
 }
