@@ -67,7 +67,6 @@ public class a1_岛屿数量 {
                 if(grid[i][j]=='1'&&grid[i][j-1]=='1'){
                     union(parent,i*n+j,i*n+j-1);
                 }
-
             }
         }
         int ans=0;

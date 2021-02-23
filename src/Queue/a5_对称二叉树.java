@@ -62,7 +62,7 @@ public class a5_对称二叉树 {
         System.out.println(isSymmetric(node));
     }
 
-    public static boolean isSymmetric(TreeNode root) {
+   /* public static boolean isSymmetric(TreeNode root) {
         if(root==null)return true;
         Queue<TreeNode> queue=new LinkedList<>();
         queue.offer(root);
@@ -93,5 +93,32 @@ public class a5_对称二叉树 {
             map.clear();
         }
         return true;
+    }*/
+
+    public static boolean isSymmetric(TreeNode root) {
+        if(root==null)return true;
+        Queue<TreeNode> queue=new LinkedList<>();
+        queue.offer(root);
+        queue.offer(root);
+        while (!queue.isEmpty()){
+            TreeNode root1=queue.poll();
+            TreeNode root2=queue.poll();
+            if(root1==null&&root2==null)continue;
+            if ((root1 == null || root2 == null) || (root1.val != root2.val)) {
+                return false;
+            }
+            queue.offer(root1.left);
+            queue.offer(root2.right);
+
+            queue.offer(root1.right);
+            queue.offer(root2.left);
+        }
+        return true;
     }
+
+
+
+
+
+
 }
