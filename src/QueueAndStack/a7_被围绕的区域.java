@@ -1,4 +1,4 @@
-package Queue;
+package QueueAndStack;
 /*130
 给定一个二维的矩阵，包含 'X' 和 'O'（字母 O）。
 
@@ -22,9 +22,7 @@ package Queue;
 */
 
 
-import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Map;
 
 public class a7_被围绕的区域 {
     public static void main(String[] args) {
